@@ -105,7 +105,7 @@ public class Wheel extends ShapeRenderer {
         explosionSound = Gdx.audio.newSound(Gdx.files.internal("explode.wav"));
         victorySound = Gdx.audio.newSound(Gdx.files.internal("victory.mp3"));
 
-        music = Gdx.audio.newMusic(Gdx.files.internal("music.mp3"));
+        music = Gdx.audio.newMusic(Gdx.files.internal("That's What I Like.mp3"));
         music.setVolume(0.5f);
         music.play();
         music.setLooping(true);
